@@ -1,7 +1,5 @@
 module.exports = {
-  parserOptions: {
-    ecmaVersion: 2018
-  },
+  parser: 'babel-eslint',
   extends: ['airbnb', 'prettier'],
   plugins: ['jest', 'cypress'],
   env: {
@@ -10,6 +8,9 @@ module.exports = {
     'cypress/globals': true
   },
   rules: {
-    'linebreak-style': 0
+    'linebreak-style': 'off',
+    'react/destructuring-assignment': 'off',
+    'react/jsx-filename-extension': 'off',
+    'react/jsx-one-expression-per-line': 'off'
   }
 };
