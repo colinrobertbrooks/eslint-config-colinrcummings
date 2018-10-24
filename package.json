@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-colinrcummings",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint rules for colinrcummings",
   "main": "index.js",
   "scripts": {},
@@ -12,9 +12,9 @@
   "author": "Colin Cummings <colinrcummings@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/colinrcummings/eslint-config-colinrcumming/issues"
+    "url": "https://github.com/colinrcummings/eslint-config-colinrcummings/issues"
   },
-  "homepage": "https://github.com/blogfoster/eslint-config-colinrcumming#readme",
+  "homepage": "https://github.com/colinrcummings/eslint-config-colinrcummings#readme",
   "dependencies": {
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^3.1.0",
