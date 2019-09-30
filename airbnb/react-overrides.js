@@ -1,4 +1,5 @@
 module.exports = {
+  extends: ['airbnb/hooks'],
   rules: {
     'react/destructuring-assignment': 'off',
     'react/jsx-filename-extension': 'off',
