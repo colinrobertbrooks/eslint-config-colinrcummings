@@ -8,7 +8,7 @@ ESLint rules for my personal projects using [`eslint-config-airbnb`](https://git
 Install packages:
 
 ```
-npm install --save-dev eslint@6.1.0 eslint-config-colinrcummings
+npm install --save-dev eslint@6.3.0 eslint-config-colinrcummings
 ```
 
 Add "extends": "colinrcummings" to your `.eslintrc`:
