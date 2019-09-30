@@ -13,7 +13,7 @@ npm install --save-dev eslint eslint-config-colinrcummings
 
 Add "extends": "colinrcummings" to your `.eslintrc`:
 
-```json
+```javascript
 {
   "extends": "colinrcummings",
   "env": {
