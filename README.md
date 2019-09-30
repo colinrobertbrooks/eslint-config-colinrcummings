@@ -1,7 +1,6 @@
 # eslint-config-colinrcummings
 
 ESLint rules for my personal projects using [`eslint-config-airbnb`](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb) as a base and exposing some additional extensions.
-.
 
 ## Usage
 
