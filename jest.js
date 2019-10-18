@@ -33,14 +33,15 @@ module.exports = {
     'jest/no-truthy-falsy': 'off',
     'jest/no-empty-title': 'error',
     'jest/no-mocks-import': 'error',
-    'jest/no-commented-out-tests': 'warn'
-    // 'jest/no-duplicate-hooks': 'off',
-    // 'jest/no-expect-resolves': 'off',
-    // 'jest/no-export': 'error',
-    // 'jest/no-if': 'error',
-    // 'jest/no-standalone-expect': 'off',
-    // 'jest/no-try-expect': 'error',
-    // 'jest/require-top-level-describe': 'off'
+    'jest/no-commented-out-tests': 'warn',
+    'jest/no-duplicate-hooks': 'off',
+    'jest/no-expect-resolves': 'off',
+    'jest/no-export': 'error',
+    'jest/no-if': 'error',
+    'jest/no-standalone-expect': 'error',
+    'jest/no-try-expect': 'error',
+    'jest/require-top-level-describe': 'error',
+    'jest/prefer-hooks-on-top': 'error'
   },
   env: {
     'jest/globals': true
