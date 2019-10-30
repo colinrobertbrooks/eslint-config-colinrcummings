@@ -1,6 +1,6 @@
 // https://github.com/kentcdodds/eslint-config-kentcdodds/blob/master/jest.js
 module.exports = {
-  plugins: ['jest'],
+  plugins: ['jest', 'jest-dom'],
   rules: {
     'jest/no-disabled-tests': 'warn',
     'jest/no-focused-tests': 'error',
@@ -22,7 +22,7 @@ module.exports = {
     'jest/prefer-expect-assertions': 'off',
     'jest/prefer-to-be-null': 'off',
     'jest/prefer-to-be-undefined': 'off',
-    'jest/require-tothrow-message': 'off',
+    'jest/require-to-throw-message': 'off',
     'jest/expect-expect': 'off',
     'jest/no-test-return-statement': 'off',
     'jest/prefer-inline-snapshots': 'off',
@@ -31,7 +31,6 @@ module.exports = {
     'jest/prefer-todo': 'warn',
     'jest/prefer-called-with': 'error',
     'jest/no-truthy-falsy': 'off',
-    'jest/no-empty-title': 'error',
     'jest/no-mocks-import': 'error',
     'jest/no-commented-out-tests': 'warn',
     'jest/no-duplicate-hooks': 'off',
@@ -41,7 +40,11 @@ module.exports = {
     'jest/no-standalone-expect': 'error',
     'jest/no-try-expect': 'error',
     'jest/require-top-level-describe': 'error',
-    'jest/prefer-hooks-on-top': 'error'
+    'jest/prefer-hooks-on-top': 'error',
+    'jest/valid-title': 'warn',
+    'jest-dom/prefer-checked': 'error',
+    'jest-dom/prefer-enabled-disabled': 'error',
+    'jest-dom/prefer-required': 'error'
   },
   env: {
     'jest/globals': true
