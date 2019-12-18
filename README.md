@@ -2,6 +2,8 @@
 
 ESLint rules for my personal projects using [`eslint-config-airbnb`](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb) as a base and exposing some additional extensions.
 
+[![npm version](https://img.shields.io/npm/v/eslint-config-colinrcummings.svg)](https://www.npmjs.com/package/eslint-config-colinrcummings)
+
 ## Usage
 
 Install packages:
