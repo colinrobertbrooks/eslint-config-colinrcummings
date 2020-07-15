@@ -14,6 +14,10 @@ module.exports = {
           },
         },
       },
+      rules: {
+        'import/extensions': 'off',
+        'react/prop-types': 'off',
+      },
     },
   ],
 };
