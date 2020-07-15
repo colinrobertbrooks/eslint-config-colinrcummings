@@ -1,7 +1,8 @@
 // https://github.com/kentcdodds/eslint-config-kentcdodds/blob/master/jest.js
 module.exports = {
-  plugins: ['jest', 'jest-dom'],
+  plugins: ['jest', 'jest-dom', 'testing-library'],
   rules: {
+    // jest
     'jest/no-disabled-tests': 'warn',
     'jest/no-focused-tests': 'error',
     'jest/no-identical-title': 'error',
@@ -42,11 +43,20 @@ module.exports = {
     'jest/require-top-level-describe': 'error',
     'jest/prefer-hooks-on-top': 'error',
     'jest/valid-title': 'warn',
+    // jest-dom
     'jest-dom/prefer-checked': 'error',
+    'jest-dom/prefer-empty': 'error',
     'jest-dom/prefer-enabled-disabled': 'error',
-    'jest-dom/prefer-required': 'error'
+    'jest-dom/prefer-focus': 'error',
+    'jest-dom/prefer-required': 'error',
+    'jest-dom/prefer-to-have-attribute': 'error',
+    'jest-dom/prefer-to-have-text-content': 'error',
+    // testing-library
+    'testing-library/await-async-query': 'error',
+    'testing-library/no-await-sync-query': 'error',
+    'testing-library/no-debug': 'warn',
   },
   env: {
-    'jest/globals': true
-  }
+    'jest/globals': true,
+  },
 };
