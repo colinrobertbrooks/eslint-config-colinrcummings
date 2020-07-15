@@ -32,6 +32,7 @@ Additional extensions:
 - `colinrcummings/jest`
 - `colinrcummings/prettier`
 - `colinrcummings/prettier/react`
+- `colinrcummings/typescript`
 
 _`colinrcummings/prettier*` extensions must come last in the "extends" array so they get the chance to override other configs._
 
